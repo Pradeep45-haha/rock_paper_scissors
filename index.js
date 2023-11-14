@@ -4,7 +4,6 @@ let currentRound = 0;
 
 
 
-
 function getComputerChoice() {
     let choice = Math.floor(Math.random() * 3);
     let wepnChoice = "null";
@@ -134,7 +133,6 @@ paper.addEventListener("click", () => {
 
 scissors.addEventListener("click", () => {
     if (currentRound <= 5) {
-
         currentRound++;
         let userChoice = "scissors";
         console.log("user chose scissors");
@@ -146,8 +144,6 @@ scissors.addEventListener("click", () => {
         }
         return;
     }
-
-
 });
 
 
